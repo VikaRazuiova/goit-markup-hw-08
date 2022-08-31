@@ -228,32 +228,59 @@
         <h2 class="work__title">Чим ми займаємося</h2>
         <ul class="work__list list">
           <li class="work__item">
-            <img
-              src="./images/box1.jpg"
-              alt="Приклад роботи"
-              width="370"
-              height="294"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./images/img1-desktop.jpg    1x,
+                  ./images/img1-desktop@2x.jpg 2x
+                "
+                media="(min-width:1200px)"
+              />
+              <img
+                src="./images/img1-desktop.jpg"
+                alt="Приклад роботи"
+                width="370"
+                height="294"
+              />
+            </picture>
             <p class="work__text">ДЕСКТОПНІ ДОДАТКІ</p>
           </li>
-
           <li class="work__item">
-            <img
-              src="./images/box2.jpg"
-              alt="Приклад роботи"
-              width="370"
-              height="294"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./images/img2-desktop.jpg    1x,
+                  ./images/img2-desktop@2x.jpg 2x
+                "
+                media="(min-width:1200px)"
+              />
+              <img
+                src="./images/img2-desktop.jpg"
+                alt="Приклад роботи"
+                width="370"
+                height="294"
+              />
+            </picture>
+
             <p class="work__text">МОБІЛЬНІ ДОДАТКИ</p>
           </li>
 
           <li class="work__item">
-            <img
-              src="./images/box3.jpg"
-              alt="Приклад роботи"
-              width="370"
-              height="294"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./images/img3-desktop.jpg    1x,
+                  ./images/img3-desktop@2x.jpg 2x
+                "
+                media="(min-width:1200px)"
+              />
+              <img
+                src="./images/img3-desktop.jpg"
+                alt="Приклад роботи"
+                width="370"
+                height="294"
+              />
+            </picture>
             <p class="work__text">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
           </li>
         </ul>
@@ -265,12 +292,36 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__item">
-              <img
-                src="./images/img1.jpg"
-                alt="Фото"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/ihordemianenko-desktop.jpg    1x,
+                    ./images/ihordemianenko-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/ihordemianenko-tablet.jpg    1x,
+                    ./images/ihordemianenko-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/ihordemianenko-mob.jpg    1x,
+                    ./images/ihordemianenko-mob@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/ihordemianenko-mob.jpg"
+                  alt="Фото"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+
               <h3 class="team__name">Ігор Дем'яненко</h3>
               <p class="team__position">Product Designer</p>
 
@@ -321,12 +372,35 @@
             </li>
 
             <li class="team__item">
-              <img
-                src="./images/img2.jpg"
-                alt="Фото"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/olhariepina-desktop.jpg    1x,
+                    ./images/olhariepina-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/olhariepina-tablet.jpg    1x,
+                    ./images/olhariepina-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/olhariepina-mob.jpg    1x,
+                    ./images/olhariepina-mob@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/olhariepina-mob.jpg"
+                  alt="Фото"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <h3 class="team__name">Ольга Рєпіна</h3>
               <p class="team__position">Frontend Developer</p>
 
@@ -377,12 +451,35 @@
             </li>
 
             <li class="team__item">
-              <img
-                src="./images/img3.jpg"
-                alt="Фото"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mykolatarasov-desktop.jpg    1x,
+                    ./images/mykolatarasov-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/mykolatarasov-tablet.jpg    1x,
+                    ./images/mykolatarasov-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mykolatarasov-mob.jpg    1x,
+                    ./images/mykolatarasov-mob@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/mykolatarasov-mob.jpg"
+                  alt="Фото"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <h3 class="team__name">Микола Тарасов</h3>
               <p class="team__position">Marketing</p>
 
@@ -433,12 +530,35 @@
             </li>
 
             <li class="team__item">
-              <img
-                src="./images/img4.jpg"
-                alt="Фото"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mykhailoyermakov-desktop.jpg    1x,
+                    ./images/mykhailoyermakov-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/mykhailoyermakov-tablet.jpg    1x,
+                    ./images/mykhailoyermakov-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mykhailoyermakov-mob.jpg    1x,
+                    ./images/mykhailoyermakov-mob@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/mykhailoyermakov-mob.jpg"
+                  alt="Фото"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <h3 class="team__name">Михайло Єрмаков</h3>
               <p class="team__position">UI Designer</p>
 
