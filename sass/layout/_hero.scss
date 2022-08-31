@@ -3,18 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-    padding-top: 118px;
-    padding-bottom: 118px;   
+     
 @media screen and (min-width:1200px) {
     max-width: 1200px;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    // padding-top: 94px;
+    // padding-bottom: 94px;
 }
 }
 
 .hero {
     max-width: 100%;
     display: flex;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-color: $dark-color;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../images/bg-img.jpeg);
@@ -60,4 +61,3 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 }
-
