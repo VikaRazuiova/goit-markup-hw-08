@@ -109,21 +109,31 @@
 
 
 
+
+
 .subscription {
-    width: 450px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
     &__title {
             color: $white-color;
             font-size: 14px;
             line-height: 1.14;
+    }
+    @media screen and (min-width:480px) {
+        max-width: 480px;
+        width: 450px;
+        display: flex;  
+        justify-content: center;
         }
-    @media screen and (min-width:1200px) {max-width: 1200px;
+    @media screen and (min-width:768px) {
+        max-width: 768px;
+        }
+    @media screen and (min-width:1200px) {
+        max-width: 1200px;
         width: 570px;
-        flex-direction: column;
-        justify-content: flex-start;
+        align-items: flex-start;
     }
 }
 
@@ -138,9 +148,11 @@
     }
     
 }
+.subscription__label{
+    display: block;
+}
 
 .subscription__input {
-    width: 450px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -160,8 +172,16 @@
     &:focus {
             border-color: $accent-color;
     }
+    @media screen and (min-width:480px) {
+            max-width: 480px;
+            width: 450px;
+         }
+    @media screen and (min-width:768px) {
+            max-width: 768px;
+            width: 450px;
+         }
     @media screen and (min-width:1200px) {max-width: 1200px;
-        width: 358px;
+           width: 358px;
     }
 }
 
