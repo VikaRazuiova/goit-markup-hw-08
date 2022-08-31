@@ -383,6 +383,18 @@ input {
   margin-left: auto;
   cursor: pointer;
 }
+@media screen and (min-width: 768px) {
+  .btn-open {
+    max-width: 768px;
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .btn-open {
+    max-width: 1200px;
+    display: none;
+  }
+}
 
 .btn-close {
   position: absolute;
